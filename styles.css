@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .card {
+    width: 30%;
+    padding: 30px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+  }
+  .card h1{
+    font-size: 28px;
+  }
+  .card p{
+    font-size: 16px;
+  }
+  .card img{
+    width: 100%;
+  }
+  .btn{
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+    background-color:red;
+    margin-top:10px;
+  }
+  .btn:hover{
+    opacity: 1;
+  }
